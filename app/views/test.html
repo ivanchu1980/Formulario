@@ -1,0 +1,32 @@
+<div class="row">
+     <div class="col-xs-12" >
+
+         <h4>{{vparametro}}</h4>
+         
+            <li class="media" ng-repeat="dish in dishes">
+                <div class="media-body">
+                    <h2 class="media-heading">{{dish.name}}
+                        <span class="label label-danger label-xs">{{dish.label}}</span>       
+                        <span class="badge">{{dish.prize | currency}}</span>       
+                    </h2>
+                    <p>{{dish.description}}</p>
+                    <p>Comment: {{dish.comment}} </p>
+                    <p>Type your comment:
+                    <input type="text" ng-model="dish.comment"</p>
+                </div>
+            </li>         
+         
+        <!-- table style="width:100%" >
+          <div ng-repeat="dish in dishes">
+            <tr >              
+                {{fila.a + fila.b}}
+            </tr>                            
+           </div>
+          
+        </table -->
+         
+        <h4>{{vparametro}}</h4> 
+         
+    </div>
+</div>    
+
