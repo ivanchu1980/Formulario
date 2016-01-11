@@ -1,14 +1,20 @@
   
-<div ng-controller="CrudCtrl">
-            <table>
-                <tr ng-repeat="persona in personas">
+<div>
+            <table width="50%" border="2" align="center" cellspacing="0">
+                <th> <center><b>Nombre</b></center></td>
+                <th> <center><b>Telefono</b></center></td>
+                <th> <center><b>Sexo</b></center></td>
+                <tr ng-repeat="persona in personas" align="center">
                     <td>{{persona.nombre}}</td>
                     <td>{{persona.telefono}}</td>
                     <td>{{persona.sexo}}</td>
-                </td>
+                </tr>
             </table>              
 </div>  
 
+<br>
+<hr size=3>
+<br>
 
                 <form class="form-horizontal" role="form">
                     <div class="form-group">
