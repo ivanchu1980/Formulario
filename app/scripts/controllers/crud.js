@@ -26,4 +26,15 @@ angular.module('ejemploAngularOrlyApp').controller("CrudCtrl", function($scope)
     $scope.personas = personas;
     $scope.vparametro = vparametro;
     
-});
+})
+
+
+angular.module('ejemploAngularOrlyApp').controller("InsertCtrl", function($scope)
+ {
+    
+})
+
+
+
+
+;
