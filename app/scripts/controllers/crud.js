@@ -31,6 +31,7 @@ angular.module('ejemploAngularOrlyApp').controller("CrudCtrl", function($scope)
         $scope.ocultar = !$scope.ocultar;
     }
     
+
     $scope.guardar = function(){
         $scope.personas.push({
           nombre:$scope.nombre,
@@ -39,4 +40,13 @@ angular.module('ejemploAngularOrlyApp').controller("CrudCtrl", function($scope)
           });
     }
         
-});
+})
+
+
+angular.module('ejemploAngularOrlyApp').controller("InsertCtrl", function($scope)
+ {
+    
+})
+
+;
+

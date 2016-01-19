@@ -61,6 +61,10 @@ angular.module('ejemploAngularOrlyApp', [
         templateUrl: 'views/crud.html',
          controller: 'CrudCtrl'
       }) 
+     .when('/insert', {
+        templateUrl: 'views/insert.html',
+         controller: 'InsertCtrl'
+      }) 
      
  .otherwise({
      redirectTo: '/'
